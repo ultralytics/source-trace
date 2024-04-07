@@ -1,80 +1,25 @@
 <a href="https://ultralytics.com" target="_blank"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
 
-# 🛠 Ultralytics Python Project Template
+# 🛠 Ultralytics Source Trace
 
-This repository serves as the template for Python projects at [Ultralytics](https://ultralytics.com). It encapsulates best practices, standard configurations, and essential project structures, streamlining the initiation process for new Python projects. By leveraging this template, developers at Ultralytics can ensure consistency and adherence to quality standards across all Python-based software developments.
+The `ultralytics/source-trace` repository is a specialized tool designed to analyze and report code duplication between different Git repositories. This project extends the principles of the standard Ultralytics Python project template by focusing on code integrity and tracking. It helps developers identify potentially copied code segments across repositories, providing detailed insights into the source, destination, and metadata associated with each duplication instance.
 
-[![Ultralytics Actions](https://github.com/ultralytics/template/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/template/actions/workflows/format.yml) <a href="https://ultralytics.com/discord"><img alt="Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a>
+[![Ultralytics Actions](https://github.com/ultralytics/source-trace/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/source-trace/actions/workflows/format.yml) <a href="https://ultralytics.com/discord"><img alt="Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a>
 
-## 🗂 Repository Structure
+### Features 🌟
 
-The repository is meticulously organized to offer intuitive navigation and a clear understanding of the project components:
+- **Detailed Comparison**: Generates a detailed report of lines of code from one repository found in another.
+- **Comprehensive Statistics**: Provides statistics about the extent of code duplication, including metrics by file and author.
+- **Metadata Tracking**: Each instance of duplication includes metadata like the author and the date of the commit.
 
-- `src/` or `your_package_name/`: Contains the source code of the Python package, organized in modules and packages.
-- `tests/`: Dedicated to unit tests and integration tests, facilitating continuous testing practices.
-- `docs/`: (Optional) Houses project documentation, typically managed with tools like Sphinx.
-- `requirements.txt` or `Pipfile`: Lists all necessary Python package dependencies.
-- `.gitignore`: Configured to exclude unnecessary files from Git tracking.
-- `LICENSE`: Specifies the open-source license under which the project is released.
-- `.github/workflows/`: Contains GitHub Actions workflows for CI/CD processes.
-- `.pre-commit-config.yaml`: (Optional) Pre-commit hooks configuration for maintaining code quality.
-- `Dockerfile`: (Optional) For containerizing the project environment.
-- `environment.yml`: (Optional, for Conda users) Manages Conda environment dependencies.
-- `setup.py`: (Optional, if using PyPI) Details for packaging and distributing the project.
-- Linting and formatting configuration files (like `.flake8`, `.pylintrc`, `pyproject.toml`).
+### Starting a New Analysis
 
-```
-your-project/
-│
-├── your_package_name/
-│   ├── __init__.py
-│   ├── module1.py
-│   ├── module2.py
-│   └── ...
-│
-├── tests/
-│   ├── __init__.py
-│   ├── test_module1.py
-│   └── ...
-│
-├── docs/
-│   └── ...
-│
-├── pyproject.toml
-└── README.md
-```
+To start using `source-trace`:
 
-### Source Code in `src/` or `your_package_name/` Directory 📂
-
-The `src/` or `your_package_name/` directory is the heart of your project, containing the Python code that constitutes your package. This structure encourages clean imports and testing practices.
-
-### Testing with the `tests/` Directory 🧪
-
-The `tests/` directory is crucial for maintaining the reliability and robustness of your code. It should include comprehensive tests that cover various aspects of your package.
-
-### Documentation in `docs/` Directory 📚
-
-For projects requiring extensive documentation, the `docs/` directory serves as the go-to place. It's typically set up with Sphinx for generating high-quality documentation.
-
-## ➕ Starting a New Project
-
-To kickstart a new Python project with this template:
-
-1. **Create Your New Repository**: Use this template to generate a new repository for your project.
-2. **Customize the Template**: Tailor the template files like `requirements.txt`, `.pre-commit-config.yaml`, and GitHub workflow YAMLs to suit your project's needs.
-3. **Develop Your Package**: Begin adding your code into the `src/` or `your_package_name/` directory and corresponding tests in the `tests/` directory.
-4. **Document Your Project**: Update the README and, if necessary, add documentation to the `docs/` directory.
-5. **Continuous Integration**: Leverage the pre-configured GitHub Actions for automated testing and other CI/CD processes.
-
-## 🔧 Utilizing the Template
-
-For Ultralytics team members and contributors:
-
-- Clone the template repository to get started on a new Python project.
-- Update the `README.md` to reflect your project's specifics.
-- Remove or modify any optional components (like `Dockerfile`, `environment.yml`) based on the project's requirements.
-
-With this template, Ultralytics aims to foster a culture of excellence and uniformity in Python software development, ensuring that each project is built on a solid foundation of industry standards and organizational best practices.
+1. **Clone this Repository**: Clone `source-trace` to your local machine or server.
+2. **Install Dependencies**: Run `pip install -r requirements.txt` to install required Python packages.
+3. **Set Up Your Analysis**: Follow the documentation in the `docs/` directory to configure your comparison setup.
+4. **Run the Tool**: Execute the scripts in the `src/` directory to begin the analysis.
 
 ## 💡 Contribute
 
