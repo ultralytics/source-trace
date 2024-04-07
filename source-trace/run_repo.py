@@ -7,9 +7,9 @@ from pathlib import Path
 from git import Repo
 
 # Constants for repository URLs and the local directory
-SOURCE_REPO = 'https://github.com/ultralytics/ultralytics'  # source repo that code may come from
-DEST_REPO = 'https://github.com/lancedb/lancedb'
-LOCAL_DIRECTORY = 'repos'
+SOURCE_REPO = "https://github.com/ultralytics/ultralytics"  # source repo that code may come from
+DEST_REPO = "https://github.com/lancedb/lancedb"
+LOCAL_DIRECTORY = "repos"
 
 
 def clone_repository(repo_url, clone_to):
@@ -63,7 +63,7 @@ def main(repo_a_url, repo_b_url, local_dir):
     return copied_lines, stats
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # Execute the main function using defined constants
     copied_lines, stats = main(SOURCE_REPO, DEST_REPO, LOCAL_DIRECTORY)
     print("Copied Lines:", copied_lines)
