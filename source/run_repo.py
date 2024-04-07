@@ -1,5 +1,4 @@
 # Ultralytics YOLO 🚀, AGPL-3.0 license
-import shutil
 from collections import defaultdict
 from pathlib import Path
 
@@ -15,8 +14,9 @@ DEST_REPO = 'https://github.com/lancedb/lancedb'
 def clone_repository(repo_url, clone_to):
     """Clone the repository from `repo_url` into the `clone_to` directory."""
     print(f"Cloning {repo_url} into {clone_to}")
-    shutil.rmtree(clone_to, ignore_errors=True)
-    return Repo.clone_from(repo_url, clone_to)
+    if not clone_to.is_dir():
+        Repo.clone_from(repo_url, clone_to)
+    return clone_to
 
 
 def extract_file_contents(repo_path):
@@ -60,8 +60,8 @@ def main(repo_a, repo_b, local_dir):
     """Main function to execute repository comparison."""
     path_a = clone_repository(repo_a, local_dir / Path(repo_a).parent.stem / Path(repo_a).stem)
     path_b = clone_repository(repo_b, local_dir / Path(repo_b).parent.stem / Path(repo_b).stem)
-    repo_a_contents = extract_file_contents(path_a.working_dir)
-    repo_b_contents = extract_file_contents(path_b.working_dir)
+    repo_a_contents = extract_file_contents(path_a)
+    repo_b_contents = extract_file_contents(path_b)
     copied_lines = compare_repos(repo_a_contents, repo_b_contents)
     stats = calculate_statistics(copied_lines)
     print("Comparison and statistics collection complete")
