@@ -77,11 +77,11 @@ tests = ["pytest"]
 
 # Tools settings -------------------------------------------------------------------------------------------------------
 [tool.setuptools]  # configuration specific to the `setuptools` build backend.
-packages = { find = { where = ["."], include = ["source-trace", "source-trace.*"] } }
+packages = { find = { where = ["."], include = ["source", "source.*"] } }
 package-data = { "sample" = ["*.yaml"] }
 
 [tool.setuptools.dynamic]
-version = { attr = "source-trace.__version__" }
+version = { attr = "source.__version__" }
 
 [tool.ruff]
 line-length = 120
