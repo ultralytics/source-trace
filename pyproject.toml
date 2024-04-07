@@ -67,9 +67,9 @@ dependencies = [# Optional
 tests = ["pytest"]
 
 [project.urls]  # Optional
-"Bug Reports" = "https://github.com/ultralytics/template/issues"
+"Bug Reports" = "https://github.com/ultralytics/source-trace/issues"
 "Funding" = "https://ultralytics.com"
-"Source" = "https://github.com/ultralytics/template/"
+"Source" = "https://github.com/ultralytics/source-trace/"
 
 # [project.scripts]  # Optional
 # sample = "sample:main"  # executes the function `main` from this package when "sample" is called.
