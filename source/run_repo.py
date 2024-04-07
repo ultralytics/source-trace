@@ -7,8 +7,8 @@ from git import Repo
 from source import ROOT
 
 # Constants for repository URLs and the local directory
-SOURCE_REPO = 'https://github.com/ultralytics/ultralytics'  # source repo that code may come from
-DEST_REPO = 'https://github.com/lancedb/lancedb'
+SOURCE_REPO = "https://github.com/ultralytics/ultralytics"  # source repo that code may come from
+DEST_REPO = "https://github.com/lancedb/lancedb"
 
 
 def clone_repository(repo_url, clone_to):
@@ -68,8 +68,8 @@ def main(repo_a, repo_b, local_dir):
     return copied_lines, stats
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # Execute the main function using defined constants
-    copied_lines, stats = main(SOURCE_REPO, DEST_REPO, local_dir=ROOT / 'repos')
+    copied_lines, stats = main(SOURCE_REPO, DEST_REPO, local_dir=ROOT / "repos")
     print("Copied Lines:", copied_lines)
     print("Statistics:", stats)
