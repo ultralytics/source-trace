@@ -129,5 +129,3 @@ def main(repo_a, repo_b, local_dir):
 if __name__ == "__main__":
     local_dir = ROOT / "github.com"
     copied_lines, stats = main(SOURCE_REPO, DEST_REPO, local_dir=local_dir)
-    # print("Copied Lines:", copied_lines)
-    # print("Statistics:", stats)
