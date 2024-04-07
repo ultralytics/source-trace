@@ -1,7 +1,7 @@
-# Ultralytics Template 🚀, AGPL-3.0 license
+# Ultralytics Source-Trace 🚀, AGPL-3.0 license
 
 # Overview:
-# This pyproject.toml file manages the build, packaging, and distribution of the Ultralytics Template library.
+# This pyproject.toml file manages the build, packaging, and distribution of the Ultralytics Source-Trace library.
 # It defines essential project metadata, dependencies, and settings used to develop and deploy the library.
 
 # Key Sections:
@@ -11,7 +11,7 @@
 # - [tool.*]: Configures settings for various tools (pytest, yapf, etc.) used in the project.
 
 # Installation:
-# The Template library can be installed using the command: 'pip install git+https://TOKEN:x-oauth-basic@github.com/ultralytics/template.git@main'
+# The Source-Trace library can be installed using the command: 'pip install git+https://TOKEN:x-oauth-basic@github.com/ultralytics/source-trace.git@main'
 # For development purposes, you can install the package in editable mode with: 'pip install -e .'
 # This approach allows for real-time code modifications without the need for re-installation.
 
@@ -24,13 +24,13 @@ build-backend = "setuptools.build_meta"
 
 # Project settings -----------------------------------------------------------------------------------------------------
 [project]
-name = "template"  # Required
+name = "source-trace"  # Required
 dynamic = ["version"]
-description = "Ultralytics Template Python Package"  # Optional
+description = "Ultralytics Source-Trace Python Package"  # Optional
 readme = "README.md"  # Optional
 requires-python = ">=3.8"
 license = { file = "LICENSE" }
-keywords = ["Ultralytics", "Template"]  # Optional
+keywords = ["Ultralytics", "Source-Trace"]  # Optional
 authors = [
     { name = "Glenn Jocher", email = "glenn.jocher@ultralytics.com" } # Optional
 ]
@@ -76,11 +76,11 @@ tests = ["pytest"]
 
 # Tools settings -------------------------------------------------------------------------------------------------------
 [tool.setuptools]  # configuration specific to the `setuptools` build backend.
-packages = { find = { where = ["."], include = ["template", "template.*"] } }
+packages = { find = { where = ["."], include = ["source-trace", "source-trace.*"] } }
 package-data = { "sample" = ["*.yaml"] }
 
 [tool.setuptools.dynamic]
-version = { attr = "template.__version__" }
+version = { attr = "source-trace.__version__" }
 
 [tool.ruff]
 line-length = 120
