@@ -97,7 +97,7 @@ def compare_repos(repo_a_contents, repo_b_contents):
                         if (
                             len(line) > 20
                             and not any(line.startswith(x) for x in IGNORE_START)
-                            and not any(line == x for x in IGNORE_LINES)
+                            and all(line != x for x in IGNORE_LINES)
                         ):
                             print(line)
                             copied_lines.append((file_a, file_b, line))
