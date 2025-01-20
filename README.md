@@ -17,9 +17,9 @@ The `ultralytics/source-trace` repository is a specialized tool designed to anal
 To start using `source-trace`:
 
 1. **Clone this Repository**: Clone `source-trace` to your local machine or server.
-2. **Install Dependencies**: Run `pip install -r requirements.txt` to install required Python packages.
+2. **Install Dependencies**: Run `pip install -e .` to install required Python packages.
 3. **Set Up Your Analysis**: Follow the documentation in the `docs/` directory to configure your comparison setup.
-4. **Run the Tool**: Execute the scripts in the `src/` directory to begin the analysis.
+4. **Run the Tool**: Execute the scripts in the `source/` directory to begin the analysis.
 
 ## 💡 Contribute
 
