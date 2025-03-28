@@ -6,9 +6,9 @@ Welcome to the `docs/` directory! This folder houses all the documentation for t
 
 ## 📂 Overview
 
--   **MkDocs Configuration:** The core configuration file for our documentation site is **`mkdocs.yml`**. This file dictates the site's structure, navigation, theme, and various build settings. You can learn more about configuring MkDocs [here](https://www.mkdocs.org/user-guide/configuration/).
--   **Documentation Files:** All documentation content is written in [Markdown](https://www.markdownguide.org/basic-syntax/), a lightweight markup language with plain text formatting syntax. These files reside within this `docs/` directory and its subdirectories.
--   **Structure:** The arrangement of Markdown files and the navigation menu displayed on the documentation site are defined in the `mkdocs.yml` file, ensuring a logical and user-friendly layout, similar to the main [Ultralytics Docs](https://docs.ultralytics.com/).
+- **MkDocs Configuration:** The core configuration file for our documentation site is **`mkdocs.yml`**. This file dictates the site's structure, navigation, theme, and various build settings. You can learn more about configuring MkDocs [here](https://www.mkdocs.org/user-guide/configuration/).
+- **Documentation Files:** All documentation content is written in [Markdown](https://www.markdownguide.org/basic-syntax/), a lightweight markup language with plain text formatting syntax. These files reside within this `docs/` directory and its subdirectories.
+- **Structure:** The arrangement of Markdown files and the navigation menu displayed on the documentation site are defined in the `mkdocs.yml` file, ensuring a logical and user-friendly layout, similar to the main [Ultralytics Docs](https://docs.ultralytics.com/).
 
 ## 🚀 Getting Started
 
@@ -22,7 +22,7 @@ To view, edit, or build the documentation locally:
 
 Maintaining high-quality documentation is crucial for the project's success. We encourage contributions to keep the documentation accurate, comprehensive, and up-to-date with the latest developments.
 
--   Please follow the guidelines outlined in the main [Ultralytics Contribution Guide](https://docs.ultralytics.com/help/contributing/).
--   If you find errors, areas for improvement, or missing information, feel free to open an issue or submit a pull request. Check out our blog post for [tips on contributing to Ultralytics open-source projects](https://www.ultralytics.com/blog/tips-to-start-contributing-to-ultralytics-open-source-projects).
+- Please follow the guidelines outlined in the main [Ultralytics Contribution Guide](https://docs.ultralytics.com/help/contributing/).
+- If you find errors, areas for improvement, or missing information, feel free to open an issue or submit a pull request. Check out our blog post for [tips on contributing to Ultralytics open-source projects](https://www.ultralytics.com/blog/tips-to-start-contributing-to-ultralytics-open-source-projects).
 
 Your contributions help make our documentation better for everyone!
