@@ -24,7 +24,7 @@ To begin using `source-trace` for your analysis:
     git clone https://github.com/ultralytics/source-trace.git
     cd source-trace
     ```
-2.  **Install Dependencies**: Install the required [Python packages](https://pypi.org/) using [pip](https://pip.pypa.io/en/stable/). We recommend using a virtual environment.
+2.  **Install Dependencies**: Install the required [Python packages](https://pypi.org/) using [pip](https://pip.pypa.io/en/stable/). We recommend using a [virtual environment](https://docs.python.org/3/tutorial/venv.html).
     ```bash
     pip install -e .
     ```
