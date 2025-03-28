@@ -1,43 +1,52 @@
-<a href="https://www.ultralytics.com/" target="_blank"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
+<a href="https://www.ultralytics.com/"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
 
 # 🛠 Ultralytics Source Trace
 
-The `ultralytics/source-trace` repository is a specialized tool designed to analyze and report code duplication between different Git repositories. This project extends the principles of the standard Ultralytics Python project template by focusing on code integrity and tracking. It helps developers identify potentially copied code segments across repositories, providing detailed insights into the source, destination, and metadata associated with each duplication instance.
+Welcome to the `ultralytics/source-trace` repository! This specialized tool from [Ultralytics](https://www.ultralytics.com/) is designed to analyze and report potential [code duplication](https://en.wikipedia.org/wiki/Duplicate_code) between different [Git](https://git-scm.com/) repositories. Building upon the standard Ultralytics [Python](https://www.python.org/) project template, `source-trace` focuses specifically on enhancing code integrity and tracking. It empowers developers by identifying code segments that might be copied across repositories, offering detailed insights into the source, destination, and associated [metadata](https://en.wikipedia.org/wiki/Metadata) for each instance of duplication.
 
-[![Ultralytics Actions](https://github.com/ultralytics/source-trace/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/source-trace/actions/workflows/format.yml) <a href="https://discord.com/invite/ultralytics"><img alt="Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a> <a href="https://community.ultralytics.com/"><img alt="Ultralytics Forums" src="https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue"></a> <a href="https://reddit.com/r/ultralytics"><img alt="Ultralytics Reddit" src="https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue"></a>
+[![Ultralytics Actions](https://github.com/ultralytics/source-trace/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/source-trace/actions/workflows/format.yml)
+[![Ultralytics Discord](https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue)](https://discord.com/invite/ultralytics)
+[![Ultralytics Forums](https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue)](https://community.ultralytics.com/)
+[![Ultralytics Reddit](https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue)](https://reddit.com/r/ultralytics)
 
-### Features 🌟
+## ✨ Features
 
-- **Detailed Comparison**: Generates a detailed report of lines of code from one repository found in another.
-- **Comprehensive Statistics**: Provides statistics about the extent of code duplication, including metrics by file and author.
-- **Metadata Tracking**: Each instance of duplication includes metadata like the author and the date of the commit.
+- **Detailed Comparison**: Generates comprehensive reports highlighting lines of code from one repository found within another.
+- **Comprehensive Statistics**: Provides valuable [metrics](https://www.ultralytics.com/glossary/accuracy) detailing the extent of code duplication, broken down by file and author.
+- **Metadata Tracking**: Captures essential metadata for each duplication instance, including the author and commit date.
 
-### Starting a New Analysis
+## 🚀 Getting Started
 
-To start using `source-trace`:
+To begin using `source-trace` for your analysis:
 
-1. **Clone this Repository**: Clone `source-trace` to your local machine or server.
-2. **Install Dependencies**: Run `pip install -e .` to install required Python packages.
-3. **Set Up Your Analysis**: Follow the documentation in the `docs/` directory to configure your comparison setup.
-4. **Run the Tool**: Execute the scripts in the `source/` directory to begin the analysis.
+1.  **Clone the Repository**: Use [Git clone](https://git-scm.com/docs/git-clone) to copy `source-trace` to your local machine or server.
+    ```bash
+    git clone https://github.com/ultralytics/source-trace.git
+    cd source-trace
+    ```
+2.  **Install Dependencies**: Install the required [Python packages](https://pypi.org/) using [pip](https://pip.pypa.io/en/stable/). We recommend using a virtual environment.
+    ```bash
+    pip install -e .
+    ```
+3.  **Set Up Your Analysis**: Consult the documentation within the `docs/` directory for guidance on configuring your comparison parameters.
+4.  **Run the Tool**: Execute the analysis scripts located in the `source/` directory to start the code duplication check.
 
 ## 💡 Contribute
 
-Ultralytics thrives on community collaboration; we immensely value your involvement! We urge you to peruse our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) for detailed insights on how you can participate. Don't forget to share your feedback with us by contributing to our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A heartfelt thank you 🙏 goes out to everyone who has already contributed!
+Ultralytics thrives on community collaboration, and we deeply appreciate your contributions! Please review our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) for detailed information on how you can get involved. We also encourage you to share your feedback through our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A heartfelt thank you 🙏 goes out to all our contributors!
 
-<a href="https://github.com/ultralytics/yolov5/graphs/contributors">
-<img width="100%" src="https://github.com/ultralytics/assets/raw/main/im/image-contributors.png" alt="Ultralytics open-source contributors"></a>
+[![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ultralytics/graphs/contributors)
 
 ## 📄 License
 
-Ultralytics presents two distinct licensing paths to accommodate a variety of scenarios:
+Ultralytics offers two licensing options to accommodate diverse needs:
 
-- **AGPL-3.0 License**: This official [OSI-approved](https://opensource.org/license) open-source license is perfectly aligned with the goals of students, enthusiasts, and researchers who believe in the virtues of open collaboration and shared wisdom. Details are available in the [LICENSE](https://github.com/ultralytics/ultralytics/blob/main/LICENSE) document.
-- **Enterprise License**: Tailored for commercial deployment, this license authorizes the unfettered integration of Ultralytics software and AI models within commercial goods and services, without the copyleft stipulations of AGPL-3.0. Should your use case demand an enterprise solution, direct your inquiries to [Ultralytics Licensing](https://www.ultralytics.com/license).
+- **AGPL-3.0 License**: This [OSI-approved](https://opensource.org/license/agpl-v3) open-source license is ideal for students, enthusiasts, and researchers who value open collaboration and knowledge sharing. See the [LICENSE](LICENSE) file for details.
+- **Enterprise License**: Designed for commercial use, this license permits seamless integration of Ultralytics software and AI models into commercial products and services, bypassing the open-source requirements of AGPL-3.0. For enterprise solutions, please contact us via [Ultralytics Licensing](https://www.ultralytics.com/license).
 
 ## 📮 Contact
 
-For bugs or feature suggestions pertaining to Ultralytics, please lodge an issue via [GitHub Issues](https://github.com/ultralytics/source-trace/issues). You're also invited to participate in our [Discord](https://discord.com/invite/ultralytics) community to engage in discussions and seek advice!
+For bug reports or feature suggestions related to `source-trace`, please raise an issue on [GitHub Issues](https://github.com/ultralytics/source-trace/issues). You're also welcome to join our [Discord](https://discord.com/invite/ultralytics) community for discussions, questions, and support!
 
 <br>
 <div align="center">
