@@ -28,14 +28,17 @@ To begin using `source-trace` for your analysis:
     ```bash
     pip install -e .
     ```
-3.  **Set Up Your Analysis**: Consult the documentation within the `docs/` directory for guidance on configuring your comparison parameters.
-4.  **Run the Tool**: Execute the analysis scripts located in the `source/` directory to start the code duplication check.
+3.  **Set Up Your Analysis**: Edit `SOURCE_REPO`, `DEST_REPO`, `SUFFIXES`, and ignore lists in `source/run_repo.py` to match the repositories and file types you want to compare.
+4.  **Run the Tool**: Execute the comparison script directly:
+    ```bash
+    python source/run_repo.py
+    ```
 
 ## 💡 Contribute
 
 Ultralytics thrives on community collaboration, and we deeply appreciate your contributions! Please review our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) for detailed information on how you can get involved. We also encourage you to share your feedback through our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A heartfelt thank you 🙏 goes out to all our contributors!
 
-[![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ultralytics/graphs/contributors)
+[![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/source-trace/graphs/contributors)
 
 ## 📄 License
 
