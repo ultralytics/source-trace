@@ -36,7 +36,7 @@ To begin using `source-trace` for your analysis:
 
 ## 💡 Contribute
 
-Ultralytics thrives on community collaboration, and we deeply appreciate your contributions! Please review our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) for detailed information on how you can get involved. We also encourage you to share your feedback through our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A heartfelt thank you 🙏 goes out to all our contributors!
+Ultralytics thrives on community collaboration, and we deeply appreciate your contributions! Please review our [Contributing Guide](https://docs.ultralytics.com/help/contributing) for detailed information on how you can get involved. We also encourage you to share your feedback through our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A heartfelt thank you 🙏 goes out to all our contributors!
 
 [![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/source-trace/graphs/contributors)
 
@@ -44,7 +44,7 @@ Ultralytics thrives on community collaboration, and we deeply appreciate your co
 
 Ultralytics offers two licensing options to accommodate diverse needs:
 
-- **AGPL-3.0 License**: This [OSI-approved](https://opensource.org/license/agpl-v3) open-source license is ideal for students, enthusiasts, and researchers who value open collaboration and knowledge sharing. See the [LICENSE](LICENSE) file for details.
+- **AGPL-3.0 License**: This [OSI-approved](https://opensource.org/license/agpl-3.0) open-source license is ideal for students, enthusiasts, and researchers who value open collaboration and knowledge sharing. See the [LICENSE](LICENSE) file for details.
 - **Enterprise License**: Designed for commercial use, this license permits seamless integration of Ultralytics software and AI models into commercial products and services, bypassing the open-source requirements of AGPL-3.0. For enterprise solutions, please contact us via [Ultralytics Licensing](https://www.ultralytics.com/license).
 
 ## 📮 Contact
