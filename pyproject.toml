@@ -8,15 +8,15 @@
 # - [build-system]: Specifies the build requirements and backend (e.g., setuptools, wheel).
 # - [project]: Includes details like name, version, description, authors, dependencies and more.
 # - [project.optional-dependencies]: Provides additional, optional packages for extended features.
-# - [tool.*]: Configures settings for various tools (pytest, yapf, etc.) used in the project.
+# - [tool.*]: Configures settings for various tools (ruff, docformatter, etc.) used in the project.
 
 # Installation:
-# The Source-Trace library can be installed using the command: 'pip install git+https://TOKEN:x-oauth-basic@github.com/ultralytics/source-trace.git@main'
+# The Source-Trace library can be installed using the command: 'pip install git+https://github.com/ultralytics/source-trace.git'
 # For development purposes, you can install the package in editable mode with: 'pip install -e .'
 # This approach allows for real-time code modifications without the need for re-installation.
 
 # Documentation:
-# For comprehensive documentation and usage instructions, visit: https://docs.ultralytics.com
+# For usage instructions see README.md; the comparison itself is implemented in source/run_repo.py.
 
 [build-system]
 requires = ["setuptools>=43.0.0", "wheel"]
@@ -73,13 +73,9 @@ tests = ["pytest"]
 "Funding" = "https://ultralytics.com"
 "Source" = "https://github.com/ultralytics/source-trace/"
 
-# [project.scripts]  # Optional
-# sample = "sample:main"  # executes the function `main` from this package when "sample" is called.
-
 # Tools settings -------------------------------------------------------------------------------------------------------
 [tool.setuptools]  # configuration specific to the `setuptools` build backend.
 packages = { find = { where = ["."], include = ["source", "source.*"] } }
-package-data = { "sample" = ["*.yaml"] }
 
 [tool.setuptools.dynamic]
 version = { attr = "source.__version__" }
@@ -93,7 +89,3 @@ wrap-descriptions = 120
 in-place = true
 pre-summary-newline = true
 close-quotes-on-newline = true
-
-[tool.codespell]
-ignore-words-list = "crate,nd,strack,dota,ane,segway,fo,gool,winn,commend"
-skip = '*.csv,*venv*,docs/??/,docs/mkdocs_??.yml'
