@@ -11,9 +11,9 @@ Welcome to the `ultralytics/source-trace` repository! This specialized tool from
 
 ## ✨ Features
 
-- **Detailed Comparison**: Generates comprehensive reports highlighting lines of code from one repository found within another.
-- **Comprehensive Statistics**: Provides valuable [metrics](https://www.ultralytics.com/glossary/accuracy) detailing the extent of code duplication, broken down by file and author.
-- **Metadata Tracking**: Captures essential metadata for each duplication instance, including the author and commit date.
+- **Detailed Comparison**: Prints every line of code from the source repository that also appears in the destination repository, after filtering out short lines and common boilerplate.
+- **Summary Statistics**: Reports the file and line totals for each repository, the number of duplicated lines found, and how many distinct files on each side those lines came from.
+- **Provenance Pairs**: Records the source file and destination file alongside each duplicated line, so every match can be traced back to both repositories.
 
 ## 🚀 Getting Started
 
