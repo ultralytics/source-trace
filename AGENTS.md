@@ -31,7 +31,7 @@ After opening a PR:
 ## Commands
 
 ```bash
-# Editable install (deps: gitpython, pandas, numpy)
+# Editable install (only dependency: gitpython)
 uv pip install -e .
 
 # Run a comparison — edit the constants at the top of source/run_repo.py first
