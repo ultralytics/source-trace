@@ -1,13 +1,13 @@
-<a href="https://www.ultralytics.com/"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
+<a href="https://www.ultralytics.com"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
 
 # 🛠 Ultralytics Source Trace
 
-Welcome to the `ultralytics/source-trace` repository! This specialized tool from [Ultralytics](https://www.ultralytics.com/) is designed to analyze and report potential [code duplication](https://en.wikipedia.org/wiki/Duplicate_code) between different [Git](https://git-scm.com/) repositories. Building upon the standard Ultralytics [Python](https://www.python.org/) project template, `source-trace` focuses specifically on enhancing code integrity and tracking. It empowers developers by identifying code segments that might be copied across repositories, offering detailed insights into the source, destination, and associated [metadata](https://en.wikipedia.org/wiki/Metadata) for each instance of duplication.
+Welcome to the `ultralytics/source-trace` repository! This specialized tool from [Ultralytics](https://www.ultralytics.com) is designed to analyze and report potential [code duplication](https://en.wikipedia.org/wiki/Duplicate_code) between different [Git](https://git-scm.com/) repositories. Building upon the standard Ultralytics [Python](https://www.python.org/) project template, `source-trace` focuses specifically on enhancing code integrity and tracking. It empowers developers by identifying code segments that might be copied across repositories, offering detailed insights into the source, destination, and associated [metadata](https://en.wikipedia.org/wiki/Metadata) for each instance of duplication.
 
 [![Ultralytics Actions](https://github.com/ultralytics/source-trace/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/source-trace/actions/workflows/format.yml)
 [![Ultralytics Discord](https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue)](https://discord.com/invite/ultralytics)
-[![Ultralytics Forums](https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue)](https://community.ultralytics.com/)
-[![Ultralytics Reddit](https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue)](https://reddit.com/r/ultralytics)
+[![Ultralytics Forums](https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue)](https://community.ultralytics.com)
+[![Ultralytics Reddit](https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue)](https://www.reddit.com/r/ultralytics/)
 
 ## ✨ Features
 
